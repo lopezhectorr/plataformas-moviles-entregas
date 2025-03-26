@@ -1,0 +1,39 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 95, 95);
+}
+
+.cuadro
+{
+    background-color: black;
+    margin: 200px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+
+.link-1{
+    margin-top: 30px;
+}
+.link-2{
+    margin-top: 10px;
+}
+.link-3{
+    margin-top: 10px;
+}
+
+a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
