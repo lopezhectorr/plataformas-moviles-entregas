@@ -9,7 +9,6 @@
 <body>
     <div class="container">
         <header>
-            <!-- Imagen circular arriba -->
             <div class="profile-img">
                 <img src="imagenes/indep.jfif" alt="Imagen de perfil">
             </div>
@@ -19,44 +18,9 @@
 
         <section class="links">
             <div class="link-item">
-                <a href="">Trabajo Práctico 1</a>
+                <a href="tp-1/index.html">Trabajo Práctico 1</a>
             </div>
         </section>
-
-        <section class="add-link">
-            <h2>Agregar nuevo enlace</h2>
-            <form id="linkForm">
-                <input type="text" id="linkName" placeholder="Nombre del trabajo" required>
-                <input type="url" id="linkUrl" placeholder="URL del enlace" required>
-                <button type="submit">Agregar enlace</button>
-            </form>
-        </section>
     </div>
-
-    <script>
-        // Función para agregar un nuevo enlace a la lista
-        document.getElementById('linkForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            
-            const name = document.getElementById('linkName').value;
-            const url = document.getElementById('linkUrl').value;
-            
-            if(name && url) {
-                const newLinkItem = document.createElement('div');
-                newLinkItem.classList.add('link-item');
-                
-                const newLink = document.createElement('a');
-                newLink.href = url;
-                newLink.textContent = name;
-                
-                newLinkItem.appendChild(newLink);
-                document.querySelector('.links').appendChild(newLinkItem);
-                
-                // Limpiar los campos
-                document.getElementById('linkName').value = '';
-                document.getElementById('linkUrl').value = '';
-            }
-        });
-    </script>
 </body>
 </html>
