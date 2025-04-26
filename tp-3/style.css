@@ -1,0 +1,26 @@
+.titulo{
+    text-align: center;
+}
+
+.parrafo{
+    font-family: serif;
+}
+
+p#primer-parrafo{
+    color: #cee;
+}
+
+#primer-parrafo em{
+    color: #933;
+}
+
+a{
+    outline: 1px solid #333;
+}
+
+p.fuente{
+    opacity: 100%;
+}
+
+
+
