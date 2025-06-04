@@ -1,0 +1,76 @@
+body{
+    background-color: #222;
+    color: #ee6;color: #ee6;
+    font-family: sans-serif;
+}
+
+/*texto*/
+h1{
+    text-align: center;
+}
+
+/*bonus*/
+
+        h1:hover{
+            color: red;/*nc pq le afecta a todo el cuagro no solo a la palabra*/
+        }
+        
+        p:first-of-type::first-line {
+            color: #efe;
+        }
+
+        /*links*/
+
+        a:visited {        
+            color: gray;/*no me anda xd nc como se hace*/
+        }
+        
+        a:not([href]) {
+            font-style: italic;
+        }
+
+        /* Colores alternados*/
+        .movies-list li:nth-child(odd) {
+            background-color: #111;
+        }
+        
+        .movies-list li:nth-child(even) {
+            background-color: #333;
+        }
+
+
+/*Tarea*/
+
+h1,h2,h3{
+    color: #eee;
+    text-transform: uppercase;/*bonus*/
+}
+
+strong {
+    border-bottom: 1px solid white;
+}
+  
+.the-force{
+    background-color: #444;
+    font-weight: bold;
+}
+
+.light-side{
+    color: #66f;
+}
+
+.dark-side{
+    color: #f33;
+}
+
+#og-trilogy{
+    list-style-type: circle;
+}
+
+.movies-list:nth-of-type(2) {
+    padding-left: 140px; 
+}
+
+.movies-list:nth-of-type(3) {
+    margin-top: 100px; 
+}
